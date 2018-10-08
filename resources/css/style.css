@@ -51,6 +51,28 @@ nav span a {
 
 }
 
+#mobile{
+    display:none;
+   
+}
+
+@media only screen and (max-width:450px){
+    header{
+        justify-content: none;
+    }
+    .logo{
+        display:none;
+    }
+    #desktop{
+        display:none;
+    }
+    #mobile{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+}
 /* banner section */
 
 .main-banner{
@@ -106,6 +128,26 @@ button{
     margin-top:2rem;
 }
 
+@media only screen and (max-width:450px){
+
+    .main-banner{
+        flex-direction:column
+    }
+
+    .bannerimage{
+
+        width:100%;
+        padding:0;
+    }
+
+    .bannertext{
+        box-sizing: border-box;
+        width:100%;
+        padding:1rem;
+    }
+
+}
+
 /* campus information section */
 /* main section */
 
@@ -138,6 +180,19 @@ button{
 }
 .quote p{
     margin-bottom:3rem;
+}
+
+@media only screen and (max-width:450px){
+
+    .campus-information{
+        flex-direction: column;
+    }
+
+    .quote{
+        display:none;
+    }
+
+
 }
 
 /* links */
@@ -173,6 +228,35 @@ button{
     justify-content:center;
     background-color:pink;
 }
+
+@media only screen and (max-width:450px){
+
+    .information{
+        padding:0;
+        border:none;
+        height:auto;
+        width:100%;
+    }
+    
+    .info{
+        padding:1rem;
+        box-sizing: border-box;
+        flex-direction: column;
+        height: 50%;
+        max-width:100%;
+        border:none;
+    }
+
+    .info img{
+        display:flex;
+        margin:0;
+        height:auto;
+        max-width: 100%;
+        object-fit:contain;
+    }
+   
+}
+
 
 /* courses section */
 
@@ -210,6 +294,13 @@ button{
     max-width:100%;
 }
 
+@media only screen and (max-width:450px){
+
+    .courses{
+        display:none;
+    }
+
+
 /* exibit section */
 
 .exibit{
@@ -229,6 +320,28 @@ padding:2rem 1.5rem;
 
 .main video{
     max-width:100%;
+}
+
+@media only screen and (max-width:450px){
+
+    .thesis{
+        padding:0;
+    }
+
+    .main{
+    width:100%;
+}
+
+.main video{
+    max-width:100%;
+
+}
+
+.main h3,.main p{
+
+    display:none;
+}
+
 }
 
 /* side projects column */
@@ -253,6 +366,14 @@ padding:2rem 1.5rem;
     width:65%;
 }
 
+@media only screen and (max-width:450px){
+
+    .side{
+        display: none;
+    }
+
+
+}
 /* footer section */
 
 footer{
