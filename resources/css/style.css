@@ -51,10 +51,10 @@ nav span a {
 /* banner section */
 
 .main-banner{
-    
     display:flex;
     align-items:center;
-    max-width:100%;
+    width:100%;
+    box-sizing: border-box;
     padding:2rem 1.5rem;
     margin-top:4rem;
     background-color:rgb(223, 222, 222);
@@ -98,7 +98,65 @@ button{
     border: 1px solid black;
     padding: 0.5rem 0;
     margin-top:2rem;
+}
+
+/* campus information section */
+/* main section */
+.campus-information{
+    display:flex;
+    padding:2rem 1.5rem;
+    background-color:lightgreen;
+    
+}
+
+
+.quote {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color:lightseagreen;
+    padding-right:1rem;
+    width:60%;
+    
+}
+
+.quote img{
+    width:60%;
+}
+
+/* links */
+
+.information {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width:40%;
+    padding-left:1rem;
+    background-color:lightsalmon;
+}
+
+.info{
+    display:flex;
+    background-color:lightblue;
 
 }
+
+.info img{
+    height:auto;
+    width:35%;
+}
+
+.details{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    max-width:65%;
+    background-color:lightblue;
+}
+
+
+
 
 
