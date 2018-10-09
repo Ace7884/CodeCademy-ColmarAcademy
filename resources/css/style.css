@@ -10,7 +10,7 @@ html{
     flex-direction:column;
     justify-content:center;
     color:rgb(78, 76, 76);
-    background-color:gold;
+   
     
 }
 
@@ -18,7 +18,7 @@ p {
     line-height: 1.3;
     font-size:0.9rem;
     padding:0.5rem 0;
-    background-color:rgb(221, 50, 221);
+    
 }
 
 /* header section and nav */
@@ -115,12 +115,12 @@ nav span a {
     box-sizing:border-box;
     padding:2rem 1rem;
     width:40%;
-    background-color:pink;
+    
 }
 
 .bannertext .text{
     width:75%;
-    background-color: aquamarine;
+    
 }
 
 .bannertext h1{
@@ -169,7 +169,6 @@ button{
 .quote {
     display:flex;
     flex-direction:column;
-    background-color:lightseagreen;
     margin:2rem 1.5rem;
     width:60%;
     
@@ -216,16 +215,14 @@ button{
     flex-direction:column;
     width:40%;
     padding-top:1rem;
-    background-color:lightsalmon;
-    border-left:1px solid black;
+    border-left:1px solid rgb(189, 186, 186);
 }
 
 .info{
     display:flex;
-    background-color:lightblue;
     padding:1rem;
     max-width:100%;
-    border-bottom:1px solid black;
+    border-bottom:1px solid rgb(189, 186, 186);
 }
 
 .info img{
@@ -238,15 +235,14 @@ button{
 .info .text{
     width:65%;
     padding-left:1rem;
-    background-color:pink;
+   
     
 }
-
-
-
-.lecture{
+.information .info:nth-of-type(3){
     background-color:rgb(223, 222, 222);
 }
+
+
 
 @media only screen and (max-width:450px){
 
@@ -286,13 +282,13 @@ button{
     align-items: center;
     padding:2rem 4.5rem;
     max-width:100%;
-    background-color: aquamarine;
+    background-color:rgb(223, 222, 222);
+    
 
 }
 
 .row{
     display: flex; 
-    border:1px solid red;
     margin-top:2rem;
     max-width: 100%;
 }
@@ -307,10 +303,9 @@ button{
     flex-direction:column;
     box-sizing: border-box;
     height:auto;
-    width:31%;
-    background-color: olive;
+    width:32%;
     padding-bottom:1.5rem;
-    border: 1px solid black;
+    background-color:white;
 }
 
 .courses img {
@@ -323,7 +318,7 @@ button{
 
 .course .text {
     padding-left:1rem;
-    background-color:red;
+    
    
 }
 
@@ -333,6 +328,9 @@ button{
     padding-bottom:0.5rem;
 }
 
+.course p{
+    padding:0;
+}
 
 
 @media only screen and (max-width:450px){
@@ -397,12 +395,17 @@ display:flex;
     width:40%;
 }
 
+
 .project{
     display:flex;
     padding:1rem;
-    border:1px solid black;
+    
 }
 
+.side .project:nth-of-type(1) {
+    background-color:rgb(223, 222, 222);
+}
+   
 
 .project img{
     align-self: flex-start;
@@ -413,7 +416,7 @@ display:flex;
 .project .text{
     width:65%;
     padding-left:1rem;
-    background-color:skyblue;
+    
 }
 
 @media only screen and (max-width:450px){
@@ -432,7 +435,7 @@ footer{
     padding-top:1rem;
     padding-left:1.5rem;
     height:4rem;
-    background-color:orange;
+    
 
 }
 footer a{
