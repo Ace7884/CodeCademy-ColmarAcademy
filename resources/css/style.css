@@ -314,7 +314,7 @@ padding:2rem 1.5rem;
 
 /* video column */
 .main{
-    width:60%;
+    max-width:60%;
 }
 
 
@@ -327,26 +327,21 @@ padding:2rem 1.5rem;
     .thesis{
         padding:0;
     }
-
     .main{
     width:100%;
-}
-
-.main video{
+    }
+    .main video{
     max-width:100%;
-
-}
-
-.main h3,.main p{
+    }
+    .main h3,.main p{
 
     display:none;
-}
-
+    }
 }
 
 /* side projects column */
 .side{
-    width:40%;
+    max-width:40%;
 }
 
 .project{
