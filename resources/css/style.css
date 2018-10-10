@@ -65,12 +65,16 @@ nav span a {
 #mobileHeader{
     display:none;
 }
-@media only screen and (max-width:602px){
+@media only screen and (max-width:665px){
     
+    
+    .logo{
+        width:50%;
+    }
     #mobileHeader{
         display: flex;
         justify-content: space-between;
-        max-width:100%;
+        width:80%;
     }
     #desktop{
         display:none;
@@ -136,11 +140,22 @@ button{
     padding: 0.5rem 0;
     margin-top:2rem;
 }
+@media only screen and (max-width:665px){
+
+    .bannerimage{
+        width:50%;
+    }
+
+    .bannertext{
+        width:50%;
+    }
+}
 
 @media only screen and (max-width:450px){
 
     .main-banner{
-        flex-direction:column
+        flex-direction:column;
+       
     }
     .bannerimage{
         width:100%;
@@ -200,6 +215,14 @@ button{
     margin-bottom:3rem;
 }
 
+@media only screen and (max-width:665px){
+
+    .quote{
+        width:50%;
+        margin:1rem 0.5rem;
+    }
+}
+
 @media only screen and (max-width:450px){
 
     .campus-information{
@@ -208,6 +231,7 @@ button{
 
     .quote{
         display:none;
+       
     }
 
 
@@ -248,7 +272,12 @@ button{
 #mobileImg{
     display:none;
 }
+@media only screen and (max-width:665px){
 
+    .information{
+        width:50%;
+    }
+}
 @media only screen and (max-width:450px){
 
     .information{
@@ -351,6 +380,33 @@ button{
 #coursesMobile{
     display:none;
 }
+@media only screen and (max-width:665px){
+
+.courses{
+
+    padding: 2rem;
+}
+
+
+
+.row{
+    margin-top:1rem;
+}
+
+.row .course:nth-of-type(2){
+    margin-left:1rem;
+    margin-right:1rem;
+
+}
+.course{
+    padding-bottom:1rem;
+}
+
+.course .text{
+    padding-left:0;
+}
+
+}
 
 @media only screen and (max-width:450px){
     
@@ -428,7 +484,15 @@ button{
     padding:0;
     padding-right:2rem;
 }
+@media only screen and (max-width:665px){
+    .main{
+        width:50%;
+    }
 
+    .main video{
+        width:100%;
+    }
+}
 @media only screen and (max-width:450px){
 
     .exhibit h2{
@@ -478,6 +542,28 @@ button{
     padding-left:1rem;
 }
 
+@media only screen and (max-width:665px){
+    
+    .project{
+        flex-direction:column;
+        
+    }
+    
+    .project img{
+        align-self:center;
+        width:100%;
+    }
+    .project .text{
+        width:100%;
+        padding-left:0;
+    }
+
+    .project .text h3{
+        font-size:1rem;
+    }
+
+}
+
 @media only screen and (max-width:450px){
 
     .side{
@@ -499,6 +585,14 @@ footer a{
     align-self: flex-start;
     padding-right:1rem;
 }
+@media only screen and (max-width:665px){
+
+    footer a{
+        display: none;
+    }
+
+}
+
 
 @media only screen and (max-width:450px){
 
@@ -514,8 +608,6 @@ footer a{
         padding-left:1.5rem;
 
     }
-    footer a{
-        display: none;
-    }
+    
 
 }
