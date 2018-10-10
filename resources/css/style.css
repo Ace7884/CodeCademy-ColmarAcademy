@@ -54,8 +54,7 @@ header{
 
 nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+   
 }
 
 nav span a {
@@ -63,23 +62,31 @@ nav span a {
     margin-left:1rem;
 }
 
-#mobile{
+#mobileHeader{
     display:none;
 }
-
+@media only screen and (max-width:602px){
+    
+    #mobileHeader{
+        display: flex;
+        justify-content: space-between;
+        max-width:100%;
+    }
+    #desktop{
+        display:none;
+    }
+}
 @media only screen and (max-width:450px){
+
+    
     header{
         justify-content: none;
     }
     .logo{
         display:none;
     }
-    #desktop{
-        display:none;
-    }
+    
     #mobileHeader{
-        display: flex;
-        justify-content: space-between;
         width: 100%;
     }
 
@@ -342,7 +349,7 @@ button{
 }
 
 #coursesMobile{
-    display:hidden;
+    display:none;
 }
 
 @media only screen and (max-width:450px){
