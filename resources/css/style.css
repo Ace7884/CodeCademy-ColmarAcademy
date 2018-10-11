@@ -467,7 +467,7 @@ a:hover{
         width:50%;
     }
     .main video{
-        height: 35%;
+        
         object-fit: fill;
         width:100%;
     }
@@ -485,7 +485,7 @@ a:hover{
         width:100%;
     }
     .main video{
-        height: 48%;  
+        
     }
     .main a,.main p{
     display:none;
