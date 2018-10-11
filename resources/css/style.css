@@ -164,11 +164,25 @@ button{
 
 @media only screen and (max-width:665px){
 
-    .bannerimage{
-        width:50%;
+    .main-banner{
+        flex-direction:column;
+        box-sizing: border-box;
     }
+    .bannerimage{
+        align-self:center;
+        width:90%;
+        margin: 0rem;
+        padding:1rem;
+    }
+    .bannerimage img{
+        height:40%;
+        max-width:100%;
+    }    
     .bannertext{
-        width:50%;
+        align-items:center;
+        height:50%;
+        width:100%;
+        padding-bottom:1rem;
     }
 }
 
@@ -181,7 +195,6 @@ button{
     .bannerimage{
         width:100%;
         margin:0;
-        padding:0;
     }
     .bannertext{
         width:100%;
