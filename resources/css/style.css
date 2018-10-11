@@ -377,6 +377,9 @@ a:hover{
     .row{
         margin-top:1rem;
     }
+    .course{
+        text-align:center;
+    }
     .row .course:nth-of-type(2){
         margin-left:1rem;
         margin-right:1rem;
@@ -467,7 +470,6 @@ a:hover{
         width:50%;
     }
     .main video{
-        
         object-fit: fill;
         width:100%;
     }
@@ -483,9 +485,6 @@ a:hover{
     .main{
         margin: 0;
         width:100%;
-    }
-    .main video{
-        
     }
     .main a,.main p{
     display:none;
@@ -534,6 +533,7 @@ a:hover{
     }
     .project .text{
         width:auto;
+        padding-top:1rem;
         padding-left:0;
     }
     .project .text h3{
