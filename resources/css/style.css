@@ -174,10 +174,7 @@ button{
         margin: 0rem;
         padding:1rem;
     }
-    .bannerimage img{
-        height:40%;
-        max-width:100%;
-    }    
+      
     .bannertext{
         align-items:center;
         height:50%;
@@ -193,11 +190,19 @@ button{
         flex-direction:column;
     }
     .bannerimage{
+        max-height:100%;
+        align-self:none;
         width:100%;
         margin:0;
+        padding:0;
+    }
+    .bannerimage img{
+        height:auto;
     }
     .bannertext{
+        height:auto;
         width:100%;
+        padding-bottom:2rem;
     }
     .bannertext .text{
         box-sizing: border-box;
